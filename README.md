@@ -2,10 +2,10 @@
 In this project I experiment with interprocess communication through named pipes and general low-level I/O.
 
 # Summary
-
+In this project 
 
 # Execution 
-You can check it out with this command and this exactly order: 
+You can check it out with this command and this exact order: 
 
 **bash script.sh Number_Of_Workers BufferSize NameOfDirectory(ex. input_dir)** 
 
@@ -19,3 +19,9 @@ You can check it out with this command and this exactly order:
 7) /exit
 
 Note: (...) means that this parameter is optional!
+
+# create_infiles.sh 
+This is just a script that creates a directory which is gonna be the input of our main program (3rd parameter). 
+If you wanna make one directory you should run something like this:
+
+**./create_infiles.sh File_with_diseases File_with_countries Name_of_dir numFilesPerDirectory numRecordsPerFile**
