@@ -5,7 +5,9 @@ In this project I experiment with interprocess communication through named pipes
 
 
 # Execution 
+You can check it out with this command and this exactly order: 
 
+**bash script1.sh Number_Of_Workers BufferSize NameOfDirectory(ex. input_dir)** 
 
 # Runtime options
 1) /listCountries
