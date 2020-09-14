@@ -2,7 +2,7 @@
 In this project I experiment with interprocess communication through named pipes and general low-level I/O.
 
 # Summary
-In this project 
+In this project basically we have a main process called diseaseAggregator and some children processes called Workers. So each Worker manages with one or more countries and its responsibility is to give answers in diseaseAggregator's queries.
 
 # Execution 
 You can check it out with this command and this exact order: 
